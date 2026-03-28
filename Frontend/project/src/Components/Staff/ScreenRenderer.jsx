@@ -3,7 +3,7 @@ import Visitor from "./Screens/Visitor";
 import FrequentVisitor from "./Screens/FrequentVisitor";
 import Notice from "./Screens/SNotice";
 import Guest from "./Screens/Guest";
-import Delivery from "./screens/Delivery";
+import Delivery from "./screens/Delivery.jsx";
 import Cab from "./Screens/Cab";
 import More from "./Screens/More"
 import AddData from "./Screens/AddData";
