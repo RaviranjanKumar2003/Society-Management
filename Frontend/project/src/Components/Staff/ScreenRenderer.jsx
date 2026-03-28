@@ -1,14 +1,14 @@
-import EnterCode from "./Screens/EnterCode";
-import Visitor from "./Screens/Visitor";
-import FrequentVisitor from "./Screens/FrequentVisitor";
-import Notice from "./Screens/SNotice";
-import Guest from "./Screens/Guest";
+import EnterCode from "./Screens/EnterCode.jsx";
+import Visitor from "./Screens/Visitor.jsx";
+import FrequentVisitor from "./Screens/FrequentVisitor.jsx";
+import Notice from "./Screens/SNotice.jsx";
+import Guest from "./Screens/Guest.jsx";
 import Delivery from "./screens/Delivery.jsx";
-import Cab from "./Screens/Cab";
-import More from "./Screens/More"
-import AddData from "./Screens/AddData";
-import KidCheck from "./Screens/KidCheck";
-import ThreeDot from "./Screens/ThreeDot";
+import Cab from "./Screens/Cab.jsx";
+import More from "./Screens/More.jsx"
+import AddData from "./Screens/AddData.jsx";
+import KidCheck from "./Screens/KidCheck.jsx";
+import ThreeDot from "./Screens/ThreeDot.jsx";
 
 function ScreenRenderer({ activeTab ,setActiveTab }) {
   switch (activeTab) {
