@@ -3,7 +3,7 @@ import api from "../../../api/axios";
 
 function ECart() {
   const buyerId = Number(localStorage.getItem("userId"));
-  const BASE_URL = "http://localhost:9090/api/products";
+  const BASE_URL = "http://localhost:8080/api/products";
 
   const [cartItems, setCartItems] = useState([]);
   const [loading, setLoading] = useState(false);

@@ -89,7 +89,7 @@ function EHome() {
   const [loading, setLoading] = useState(false);
 
   const buyerId = Number(localStorage.getItem("userId"));
-  const BASE_URL = "http://localhost:9090/api/products";
+  const BASE_URL = "http://localhost:8080/api/products";
 
   const [selectedProduct, setSelectedProduct] = useState(null);
 

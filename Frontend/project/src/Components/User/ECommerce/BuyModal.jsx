@@ -168,7 +168,7 @@ function BuyModal({ product, onClose }) {
           <img
             src={
               product.images?.length > 0
-                ? `http://localhost:9090/api/products/image/get/product/${product.id}/${product.images[currentImage]}`
+                ? `http://localhost:8080/api/products/image/get/product/${product.id}/${product.images[currentImage]}`
                 : "https://via.placeholder.com/300"
             }
             className="w-full h-40 object-cover rounded mb-2"

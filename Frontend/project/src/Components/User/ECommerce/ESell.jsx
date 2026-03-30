@@ -25,7 +25,7 @@ function ESell() {
   });
   const [newImages, setNewImages] = useState([]);
 
-  const BASE_URL = "http://localhost:9090/api/products";
+  const BASE_URL = "http://localhost:8080/api/products";
 
   /* ================= FETCH ================= */
   const fetchMyProducts = async () => {
