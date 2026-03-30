@@ -34,11 +34,8 @@ public class PaymentController {
     /* ================= VERIFY ================= */
 
     @PostMapping("/verify")
-    public ResponseEntity<String> verifyPayment(
-            @RequestBody PaymentDto dto
-    ) {
-        paymentService.verifyPayment(dto);
-        return ResponseEntity.ok("Payment verified successfully");
+    public ResponseEntity<String> verifyPayment() {
+        return ResponseEntity.ok("Online payment disabled");
     }
 
 /*====================================================================================================*/
